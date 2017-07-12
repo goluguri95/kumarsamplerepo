@@ -1,2 +1,2 @@
 print ("hello world")
-print("dingri")
+print("iilugurtostondi")

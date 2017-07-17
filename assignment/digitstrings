@@ -1,0 +1,11 @@
+j=int(raw_input())
+l=[]
+for i in range(0,j+1):
+    f=str(raw_input())
+    for j in range(0,len(g)):
+        if f[i].isdigit():
+            l.append(f)
+            break
+
+for k in range(0,len(k)):
+    print(l[k])

@@ -1,0 +1,13 @@
+k=[124,23,33,45,33]
+i=0;
+while (i<len(g)):
+    if k[i]=='':
+        break
+    else:
+        k.remove(k[i])
+        k.append('')
+        i=i+2
+    
+    
+
+        

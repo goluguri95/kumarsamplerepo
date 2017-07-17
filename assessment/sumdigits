@@ -1,0 +1,5 @@
+i=str(raw_input())
+k=list(i)
+for j in range(o,len(k)):
+    sum=sum+int(k[i])
+print(sum)

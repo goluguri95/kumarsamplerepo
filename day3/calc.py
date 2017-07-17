@@ -1,4 +1,5 @@
-
+import logging
+import datetime
 def add(b,c):
     return b+c
 def sub(b,c):
@@ -14,13 +15,28 @@ def modu(b,c):
     if (c==0):
         return 'remainder doesnt exist'
     else:
-        return b%c 
-print("please enter the operation you want to perform (+ means add),(- means sub),(* means mul),(/ means div),(% means mod)")
-a=str(raw_input())
-print("please enter the first number")
-b=float(raw_input())
+        return b%c
+i=5
+while(i<5):
+    print("please enter the operation you want to perform (+ means add),(- means sub),(* means mul),(/ means div),(% means mod)")
+    a=str(raw_input())
+    if (a!='+' or a!='-'or a!='/'or a!='%'):
+         continue;
+    else:
+         break
+
+try:
+    print("please enter the first number")
+    b=float(raw_input())
+    
+except ValueError :
+    print("check the number you entered")
+       
+    
+        
 print("please enter the second number")
 c=float(raw_input())
+logging.debug("cannnnnnnnnn")
 if (a=='+'):
     x=add(b,c)
     print('your output is', x)

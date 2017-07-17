@@ -1,0 +1,5 @@
+i=str(raw_input())
+g=i.split()
+k=list(g)
+print(k)
+print(tuple(k))

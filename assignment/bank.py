@@ -1,7 +1,9 @@
-k=int(raw_input())
+
 sum=0
-for i in range(0,k):
+while True:
     j=str(raw_input())
+    if not j:
+        break
     b=j.split()
     if (b[0]=='D'):
         sum=sum+int(b[1])
